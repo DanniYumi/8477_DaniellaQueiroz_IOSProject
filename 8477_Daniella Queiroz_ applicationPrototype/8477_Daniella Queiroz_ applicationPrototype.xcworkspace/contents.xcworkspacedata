@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DescriptionTableViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:DescriptionTableViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:ClothesTableViewCell.h">
+   </FileRef>
+   <FileRef
+      location = "group:ClothesTableViewCell.m">
+   </FileRef>
+   <FileRef
+      location = "group:LoginViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:LoginViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:SigninViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:SigninViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:HomePageViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:HomePageViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:ClosetViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:ClosetViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:8477_Daniella Queiroz_ applicationPrototype.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

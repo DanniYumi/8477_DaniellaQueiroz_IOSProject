@@ -1,0 +1,16 @@
+dependencies: \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/crypto/pkcs7/pkcs7.c \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/Target\ Support\ Files/BoringSSL-GRPC/BoringSSL-GRPC-prefix.pch \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/pkcs7.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/base.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/is_boringssl.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/opensslconf.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/stack.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/type_check.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/bytestring.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/span.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/err.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/mem.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/include/openssl/pool.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/crypto/pkcs7/internal.h \
+  /Users/danniyumi/Desktop/8477_Daniella\ Queiroz_\ applicationPrototype/Pods/BoringSSL-GRPC/src/crypto/pkcs7/../bytestring/internal.h

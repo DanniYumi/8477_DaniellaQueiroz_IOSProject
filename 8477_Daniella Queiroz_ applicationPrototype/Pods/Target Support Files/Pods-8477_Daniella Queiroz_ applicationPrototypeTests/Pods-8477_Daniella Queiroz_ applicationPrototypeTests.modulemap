@@ -1,0 +1,6 @@
+framework module Pods_8477_Daniella_Queiroz__applicationPrototypeTests {
+  umbrella header "Pods-8477_Daniella Queiroz_ applicationPrototypeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_8477_Daniella_Queiroz__applicationPrototype : NSObject
+@end
+@implementation PodsDummy_Pods_8477_Daniella_Queiroz__applicationPrototype
+@end

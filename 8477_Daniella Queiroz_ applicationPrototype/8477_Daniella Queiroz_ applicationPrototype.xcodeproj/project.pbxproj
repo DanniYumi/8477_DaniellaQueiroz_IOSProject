@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255C08E8A87F03E20EB395F1 /* Pods_8477_Daniella_Queiroz__applicationPrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECFFC1121EE23238A4203CF /* Pods_8477_Daniella_Queiroz__applicationPrototype.framework */; };
+		322E52B082F672293DC790B1 /* Pods_8477_Daniella_Queiroz__applicationPrototype_8477_Daniella_Queiroz__applicationPrototypeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94CA92BA2E13F6D0EDFE7CD /* Pods_8477_Daniella_Queiroz__applicationPrototype_8477_Daniella_Queiroz__applicationPrototypeUITests.framework */; };
+		6C40545126B4B7E400A70D91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40545026B4B7E400A70D91 /* AppDelegate.m */; };
+		6C40545426B4B7E400A70D91 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40545326B4B7E400A70D91 /* SceneDelegate.m */; };
+		6C40545A26B4B7E400A70D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C40545826B4B7E400A70D91 /* Main.storyboard */; };
+		6C40545C26B4B7E800A70D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C40545B26B4B7E800A70D91 /* Assets.xcassets */; };
+		6C40545F26B4B7E800A70D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C40545D26B4B7E800A70D91 /* LaunchScreen.storyboard */; };
+		6C40546226B4B7E800A70D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40546126B4B7E800A70D91 /* main.m */; };
+		6C40546C26B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40546B26B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeTests.m */; };
+		6C40547726B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40547626B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeUITests.m */; };
+		6C40548526B4B8EF00A70D91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C40548426B4B8EF00A70D91 /* GoogleService-Info.plist */; };
+		6C4054E326B4C34200A70D91 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4054DB26B4C34200A70D91 /* SigninViewController.m */; };
+		6C4054E426B4C34200A70D91 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4054DC26B4C34200A70D91 /* HomePageViewController.m */; };
+		6C4054E526B4C34200A70D91 /* ClosetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4054DD26B4C34200A70D91 /* ClosetViewController.m */; };
+		6C4054E626B4C34200A70D91 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4054E126B4C34200A70D91 /* LoginViewController.m */; };
+		6C4054ED26B7FA8D00A70D91 /* download (5).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6C4054EC26B7FA8C00A70D91 /* download (5).jpeg */; };
+		6C4054F026B9137A00A70D91 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4054EF26B9137A00A70D91 /* Users.m */; };
+		6C4054FA26BBC4EC00A70D91 /* FirestoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4054F926BBC4EB00A70D91 /* FirestoreService.m */; };
+		6C4054FD26BBC65A00A70D91 /* Closet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4054FC26BBC65A00A70D91 /* Closet.m */; };
+		6C40550626BE1DB900A70D91 /* DescriptionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40550526BE1DB900A70D91 /* DescriptionTableViewController.m */; };
+		6C40550926BE1EE400A70D91 /* ClothesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40550826BE1EE400A70D91 /* ClothesTableViewCell.m */; };
+		CC817475CB7772407D74EE3C /* Pods_8477_Daniella_Queiroz__applicationPrototypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1860DD4EC5B79CF0C49EA739 /* Pods_8477_Daniella_Queiroz__applicationPrototypeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C40546826B4B7E800A70D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C40544426B4B7E400A70D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C40544B26B4B7E400A70D91;
+			remoteInfo = "8477_Daniella Queiroz_ applicationPrototype";
+		};
+		6C40547326B4B7E800A70D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C40544426B4B7E400A70D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C40544B26B4B7E400A70D91;
+			remoteInfo = "8477_Daniella Queiroz_ applicationPrototype";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1860DD4EC5B79CF0C49EA739 /* Pods_8477_Daniella_Queiroz__applicationPrototypeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8477_Daniella_Queiroz__applicationPrototypeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B0F4ACE4C44091B39D6490 /* Pods-8477_Daniella Queiroz_ applicationPrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8477_Daniella Queiroz_ applicationPrototypeTests.release.xcconfig"; path = "Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototypeTests/Pods-8477_Daniella Queiroz_ applicationPrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		28933FE1BE42BFC559381362 /* Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.debug.xcconfig"; path = "Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ECFFC1121EE23238A4203CF /* Pods_8477_Daniella_Queiroz__applicationPrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8477_Daniella_Queiroz__applicationPrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40544C26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8477_Daniella Queiroz_ applicationPrototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40544F26B4B7E400A70D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C40545026B4B7E400A70D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C40545226B4B7E400A70D91 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6C40545326B4B7E400A70D91 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6C40545926B4B7E400A70D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C40545B26B4B7E800A70D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C40545E26B4B7E800A70D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C40546026B4B7E800A70D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C40546126B4B7E800A70D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C40546726B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8477_Daniella Queiroz_ applicationPrototypeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40546B26B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _477_Daniella_Queiroz__applicationPrototypeTests.m; sourceTree = "<group>"; };
+		6C40546D26B4B7E800A70D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C40547226B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8477_Daniella Queiroz_ applicationPrototypeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40547626B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _477_Daniella_Queiroz__applicationPrototypeUITests.m; sourceTree = "<group>"; };
+		6C40547826B4B7E800A70D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C40548426B4B8EF00A70D91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6C4054DB26B4C34200A70D91 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = SOURCE_ROOT; };
+		6C4054DC26B4C34200A70D91 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = SOURCE_ROOT; };
+		6C4054DD26B4C34200A70D91 /* ClosetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosetViewController.m; sourceTree = SOURCE_ROOT; };
+		6C4054DE26B4C34200A70D91 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		6C4054DF26B4C34200A70D91 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = SOURCE_ROOT; };
+		6C4054E026B4C34200A70D91 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = SOURCE_ROOT; };
+		6C4054E126B4C34200A70D91 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		6C4054E226B4C34200A70D91 /* ClosetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosetViewController.h; sourceTree = SOURCE_ROOT; };
+		6C4054EC26B7FA8C00A70D91 /* download (5).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "download (5).jpeg"; path = "../../../Downloads/download (5).jpeg"; sourceTree = "<group>"; };
+		6C4054EE26B9137900A70D91 /* Users.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		6C4054EF26B9137A00A70D91 /* Users.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		6C4054F826BBC4EB00A70D91 /* FirestoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirestoreService.h; sourceTree = "<group>"; };
+		6C4054F926BBC4EB00A70D91 /* FirestoreService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirestoreService.m; sourceTree = "<group>"; };
+		6C4054FB26BBC65A00A70D91 /* Closet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Closet.h; sourceTree = "<group>"; };
+		6C4054FC26BBC65A00A70D91 /* Closet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Closet.m; sourceTree = "<group>"; };
+		6C40550426BE1DB800A70D91 /* DescriptionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionTableViewController.h; sourceTree = SOURCE_ROOT; };
+		6C40550526BE1DB900A70D91 /* DescriptionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionTableViewController.m; sourceTree = SOURCE_ROOT; };
+		6C40550726BE1EE400A70D91 /* ClothesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesTableViewCell.h; sourceTree = "<group>"; };
+		6C40550826BE1EE400A70D91 /* ClothesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesTableViewCell.m; sourceTree = "<group>"; };
+		7C6E8BD0F6A206750A43220E /* Pods-8477_Daniella Queiroz_ applicationPrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8477_Daniella Queiroz_ applicationPrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototypeTests/Pods-8477_Daniella Queiroz_ applicationPrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94A14E27839987F15DBAD52B /* Pods-8477_Daniella Queiroz_ applicationPrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8477_Daniella Queiroz_ applicationPrototype.release.xcconfig"; path = "Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype/Pods-8477_Daniella Queiroz_ applicationPrototype.release.xcconfig"; sourceTree = "<group>"; };
+		BCF158FAF65EA9CA700A60B1 /* Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.release.xcconfig"; path = "Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F94CA92BA2E13F6D0EDFE7CD /* Pods_8477_Daniella_Queiroz__applicationPrototype_8477_Daniella_Queiroz__applicationPrototypeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8477_Daniella_Queiroz__applicationPrototype_8477_Daniella_Queiroz__applicationPrototypeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9FDEF379E6423791952B00 /* Pods-8477_Daniella Queiroz_ applicationPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8477_Daniella Queiroz_ applicationPrototype.debug.xcconfig"; path = "Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype/Pods-8477_Daniella Queiroz_ applicationPrototype.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C40544926B4B7E400A70D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C08E8A87F03E20EB395F1 /* Pods_8477_Daniella_Queiroz__applicationPrototype.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40546426B4B7E800A70D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC817475CB7772407D74EE3C /* Pods_8477_Daniella_Queiroz__applicationPrototypeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40546F26B4B7E800A70D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322E52B082F672293DC790B1 /* Pods_8477_Daniella_Queiroz__applicationPrototype_8477_Daniella_Queiroz__applicationPrototypeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C40544326B4B7E400A70D91 = {
+			isa = PBXGroup;
+			children = (
+				6C40544E26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype */,
+				6C40546A26B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeTests */,
+				6C40547526B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeUITests */,
+				6C40544D26B4B7E400A70D91 /* Products */,
+				9930A336A84DBA7CFD7DCC5D /* Pods */,
+				76712FC6CF8CBD077A8B44E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C40544D26B4B7E400A70D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C40544C26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype.app */,
+				6C40546726B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeTests.xctest */,
+				6C40547226B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C40544E26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				6C40548426B4B8EF00A70D91 /* GoogleService-Info.plist */,
+				6C40544F26B4B7E400A70D91 /* AppDelegate.h */,
+				6C40545026B4B7E400A70D91 /* AppDelegate.m */,
+				6C40545226B4B7E400A70D91 /* SceneDelegate.h */,
+				6C40545326B4B7E400A70D91 /* SceneDelegate.m */,
+				6C40545826B4B7E400A70D91 /* Main.storyboard */,
+				6C4054F826BBC4EB00A70D91 /* FirestoreService.h */,
+				6C4054F926BBC4EB00A70D91 /* FirestoreService.m */,
+				6C4054EE26B9137900A70D91 /* Users.h */,
+				6C4054EF26B9137A00A70D91 /* Users.m */,
+				6C4054FB26BBC65A00A70D91 /* Closet.h */,
+				6C4054FC26BBC65A00A70D91 /* Closet.m */,
+				6C40550726BE1EE400A70D91 /* ClothesTableViewCell.h */,
+				6C40550826BE1EE400A70D91 /* ClothesTableViewCell.m */,
+				6C4054DE26B4C34200A70D91 /* LoginViewController.h */,
+				6C4054E126B4C34200A70D91 /* LoginViewController.m */,
+				6C4054DF26B4C34200A70D91 /* SigninViewController.h */,
+				6C4054DB26B4C34200A70D91 /* SigninViewController.m */,
+				6C4054E026B4C34200A70D91 /* HomePageViewController.h */,
+				6C4054DC26B4C34200A70D91 /* HomePageViewController.m */,
+				6C40550426BE1DB800A70D91 /* DescriptionTableViewController.h */,
+				6C40550526BE1DB900A70D91 /* DescriptionTableViewController.m */,
+				6C4054E226B4C34200A70D91 /* ClosetViewController.h */,
+				6C4054DD26B4C34200A70D91 /* ClosetViewController.m */,
+				6C4054EC26B7FA8C00A70D91 /* download (5).jpeg */,
+				6C40545B26B4B7E800A70D91 /* Assets.xcassets */,
+				6C40545D26B4B7E800A70D91 /* LaunchScreen.storyboard */,
+				6C40546026B4B7E800A70D91 /* Info.plist */,
+				6C40546126B4B7E800A70D91 /* main.m */,
+			);
+			path = "8477_Daniella Queiroz_ applicationPrototype";
+			sourceTree = "<group>";
+		};
+		6C40546A26B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C40546B26B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeTests.m */,
+				6C40546D26B4B7E800A70D91 /* Info.plist */,
+			);
+			path = "8477_Daniella Queiroz_ applicationPrototypeTests";
+			sourceTree = "<group>";
+		};
+		6C40547526B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C40547626B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeUITests.m */,
+				6C40547826B4B7E800A70D91 /* Info.plist */,
+			);
+			path = "8477_Daniella Queiroz_ applicationPrototypeUITests";
+			sourceTree = "<group>";
+		};
+		76712FC6CF8CBD077A8B44E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFFC1121EE23238A4203CF /* Pods_8477_Daniella_Queiroz__applicationPrototype.framework */,
+				F94CA92BA2E13F6D0EDFE7CD /* Pods_8477_Daniella_Queiroz__applicationPrototype_8477_Daniella_Queiroz__applicationPrototypeUITests.framework */,
+				1860DD4EC5B79CF0C49EA739 /* Pods_8477_Daniella_Queiroz__applicationPrototypeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9930A336A84DBA7CFD7DCC5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB9FDEF379E6423791952B00 /* Pods-8477_Daniella Queiroz_ applicationPrototype.debug.xcconfig */,
+				94A14E27839987F15DBAD52B /* Pods-8477_Daniella Queiroz_ applicationPrototype.release.xcconfig */,
+				28933FE1BE42BFC559381362 /* Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.debug.xcconfig */,
+				BCF158FAF65EA9CA700A60B1 /* Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.release.xcconfig */,
+				7C6E8BD0F6A206750A43220E /* Pods-8477_Daniella Queiroz_ applicationPrototypeTests.debug.xcconfig */,
+				24B0F4ACE4C44091B39D6490 /* Pods-8477_Daniella Queiroz_ applicationPrototypeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C40544B26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40547B26B4B7E800A70D91 /* Build configuration list for PBXNativeTarget "8477_Daniella Queiroz_ applicationPrototype" */;
+			buildPhases = (
+				E83E93AE88549147AC2E749F /* [CP] Check Pods Manifest.lock */,
+				6C40544826B4B7E400A70D91 /* Sources */,
+				6C40544926B4B7E400A70D91 /* Frameworks */,
+				6C40544A26B4B7E400A70D91 /* Resources */,
+				DA45453AEDC916C0FB21330B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8477_Daniella Queiroz_ applicationPrototype";
+			productName = "8477_Daniella Queiroz_ applicationPrototype";
+			productReference = 6C40544C26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C40546626B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40547E26B4B7E800A70D91 /* Build configuration list for PBXNativeTarget "8477_Daniella Queiroz_ applicationPrototypeTests" */;
+			buildPhases = (
+				709652EE8739E232C2493D0E /* [CP] Check Pods Manifest.lock */,
+				6C40546326B4B7E800A70D91 /* Sources */,
+				6C40546426B4B7E800A70D91 /* Frameworks */,
+				6C40546526B4B7E800A70D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C40546926B4B7E800A70D91 /* PBXTargetDependency */,
+			);
+			name = "8477_Daniella Queiroz_ applicationPrototypeTests";
+			productName = "8477_Daniella Queiroz_ applicationPrototypeTests";
+			productReference = 6C40546726B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C40547126B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40548126B4B7E800A70D91 /* Build configuration list for PBXNativeTarget "8477_Daniella Queiroz_ applicationPrototypeUITests" */;
+			buildPhases = (
+				C343B2AFF80EA68DAF190983 /* [CP] Check Pods Manifest.lock */,
+				6C40546E26B4B7E800A70D91 /* Sources */,
+				6C40546F26B4B7E800A70D91 /* Frameworks */,
+				6C40547026B4B7E800A70D91 /* Resources */,
+				2012272419B5D1F12FF2E599 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C40547426B4B7E800A70D91 /* PBXTargetDependency */,
+			);
+			name = "8477_Daniella Queiroz_ applicationPrototypeUITests";
+			productName = "8477_Daniella Queiroz_ applicationPrototypeUITests";
+			productReference = 6C40547226B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C40544426B4B7E400A70D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Danni Yumi";
+				TargetAttributes = {
+					6C40544B26B4B7E400A70D91 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6C40546626B4B7E800A70D91 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6C40544B26B4B7E400A70D91;
+					};
+					6C40547126B4B7E800A70D91 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6C40544B26B4B7E400A70D91;
+					};
+				};
+			};
+			buildConfigurationList = 6C40544726B4B7E400A70D91 /* Build configuration list for PBXProject "8477_Daniella Queiroz_ applicationPrototype" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C40544326B4B7E400A70D91;
+			productRefGroup = 6C40544D26B4B7E400A70D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C40544B26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype */,
+				6C40546626B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeTests */,
+				6C40547126B4B7E800A70D91 /* 8477_Daniella Queiroz_ applicationPrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C40544A26B4B7E400A70D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4054ED26B7FA8D00A70D91 /* download (5).jpeg in Resources */,
+				6C40545F26B4B7E800A70D91 /* LaunchScreen.storyboard in Resources */,
+				6C40548526B4B8EF00A70D91 /* GoogleService-Info.plist in Resources */,
+				6C40545C26B4B7E800A70D91 /* Assets.xcassets in Resources */,
+				6C40545A26B4B7E400A70D91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40546526B4B7E800A70D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40547026B4B7E800A70D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2012272419B5D1F12FF2E599 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709652EE8739E232C2493D0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-8477_Daniella Queiroz_ applicationPrototypeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C343B2AFF80EA68DAF190983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA45453AEDC916C0FB21330B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype/Pods-8477_Daniella Queiroz_ applicationPrototype-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype/Pods-8477_Daniella Queiroz_ applicationPrototype-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-8477_Daniella Queiroz_ applicationPrototype/Pods-8477_Daniella Queiroz_ applicationPrototype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83E93AE88549147AC2E749F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-8477_Daniella Queiroz_ applicationPrototype-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C40544826B4B7E400A70D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4054F026B9137A00A70D91 /* Users.m in Sources */,
+				6C4054E326B4C34200A70D91 /* SigninViewController.m in Sources */,
+				6C40550926BE1EE400A70D91 /* ClothesTableViewCell.m in Sources */,
+				6C40545126B4B7E400A70D91 /* AppDelegate.m in Sources */,
+				6C40550626BE1DB900A70D91 /* DescriptionTableViewController.m in Sources */,
+				6C4054FD26BBC65A00A70D91 /* Closet.m in Sources */,
+				6C4054FA26BBC4EC00A70D91 /* FirestoreService.m in Sources */,
+				6C4054E426B4C34200A70D91 /* HomePageViewController.m in Sources */,
+				6C40546226B4B7E800A70D91 /* main.m in Sources */,
+				6C4054E626B4C34200A70D91 /* LoginViewController.m in Sources */,
+				6C4054E526B4C34200A70D91 /* ClosetViewController.m in Sources */,
+				6C40545426B4B7E400A70D91 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40546326B4B7E800A70D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40546C26B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40546E26B4B7E800A70D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40547726B4B7E800A70D91 /* _477_Daniella_Queiroz__applicationPrototypeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C40546926B4B7E800A70D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C40544B26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype */;
+			targetProxy = 6C40546826B4B7E800A70D91 /* PBXContainerItemProxy */;
+		};
+		6C40547426B4B7E800A70D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C40544B26B4B7E400A70D91 /* 8477_Daniella Queiroz_ applicationPrototype */;
+			targetProxy = 6C40547326B4B7E800A70D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C40545826B4B7E400A70D91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C40545926B4B7E400A70D91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C40545D26B4B7E800A70D91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C40545E26B4B7E800A70D91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C40547926B4B7E800A70D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C40547A26B4B7E800A70D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C40547C26B4B7E800A70D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9FDEF379E6423791952B00 /* Pods-8477_Daniella Queiroz_ applicationPrototype.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8477_Daniella Queiroz_ applicationPrototype/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danni.-477-Daniella-Queiroz--applicationPrototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C40547D26B4B7E800A70D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A14E27839987F15DBAD52B /* Pods-8477_Daniella Queiroz_ applicationPrototype.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8477_Daniella Queiroz_ applicationPrototype/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danni.-477-Daniella-Queiroz--applicationPrototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C40547F26B4B7E800A70D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6E8BD0F6A206750A43220E /* Pods-8477_Daniella Queiroz_ applicationPrototypeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8477_Daniella Queiroz_ applicationPrototypeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danni.-477-Daniella-Queiroz--applicationPrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8477_Daniella Queiroz_ applicationPrototype.app/8477_Daniella Queiroz_ applicationPrototype";
+			};
+			name = Debug;
+		};
+		6C40548026B4B7E800A70D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B0F4ACE4C44091B39D6490 /* Pods-8477_Daniella Queiroz_ applicationPrototypeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8477_Daniella Queiroz_ applicationPrototypeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danni.-477-Daniella-Queiroz--applicationPrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8477_Daniella Queiroz_ applicationPrototype.app/8477_Daniella Queiroz_ applicationPrototype";
+			};
+			name = Release;
+		};
+		6C40548226B4B7E800A70D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28933FE1BE42BFC559381362 /* Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8477_Daniella Queiroz_ applicationPrototypeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danni.-477-Daniella-Queiroz--applicationPrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "8477_Daniella Queiroz_ applicationPrototype";
+			};
+			name = Debug;
+		};
+		6C40548326B4B7E800A70D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF158FAF65EA9CA700A60B1 /* Pods-8477_Daniella Queiroz_ applicationPrototype-8477_Daniella Queiroz_ applicationPrototypeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8477_Daniella Queiroz_ applicationPrototypeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danni.-477-Daniella-Queiroz--applicationPrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "8477_Daniella Queiroz_ applicationPrototype";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C40544726B4B7E400A70D91 /* Build configuration list for PBXProject "8477_Daniella Queiroz_ applicationPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40547926B4B7E800A70D91 /* Debug */,
+				6C40547A26B4B7E800A70D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40547B26B4B7E800A70D91 /* Build configuration list for PBXNativeTarget "8477_Daniella Queiroz_ applicationPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40547C26B4B7E800A70D91 /* Debug */,
+				6C40547D26B4B7E800A70D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40547E26B4B7E800A70D91 /* Build configuration list for PBXNativeTarget "8477_Daniella Queiroz_ applicationPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40547F26B4B7E800A70D91 /* Debug */,
+				6C40548026B4B7E800A70D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40548126B4B7E800A70D91 /* Build configuration list for PBXNativeTarget "8477_Daniella Queiroz_ applicationPrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40548226B4B7E800A70D91 /* Debug */,
+				6C40548326B4B7E800A70D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C40544426B4B7E400A70D91 /* Project object */;
+}
